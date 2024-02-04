@@ -9,7 +9,7 @@ namespace DirectExchange.RabbitMQ
         {
             //Bağlantı Oluşturma RabbitMQ ile.
             ConnectionFactory connectionFactory = new();
-            connectionFactory.Uri = new("amqps://rkjhqugu:ldW9uYt3EtaPRzn9_ulmFp657F27TyNA@jackal.rmq.cloudamqp.com/rkjhqugu");
+            connectionFactory.Uri = new("");
 
 
             //Bağlantı aktifleştirme ve kanal açma
